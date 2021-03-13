@@ -14,6 +14,8 @@ insert into myfirstdb values (2,'b','bb');
 insert into myfirstdb values (3,'c','bb');
 insert into myfirstdb values (4,'d','dd');
 
+select * from myfirstdb;
+
 COMMIT;
 
 set echo off
