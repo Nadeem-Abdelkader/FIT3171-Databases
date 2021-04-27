@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B4C3876-0A42-176C-3591-0ADFBEEA4DF6" name="VISIT">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 22:32:26 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="visit_date" id="011036E6-A98E-F68E-AF49-E46674524B1A">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 22:32:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit date]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_time" id="54FA11C8-4EC4-C67C-2973-6FB50D9B357C">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 22:32:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit time]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_attending_vet_id" id="8F5887E4-F722-5216-58A8-09C10F695F13">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 22:32:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[vist attending vet id]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_clinic_id" id="EE1E2DD8-D708-C288-ECB2-6C5A36C52F5B">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 22:32:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit clinic id]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_length" id="EAF7C2A7-4C83-EAEB-F8CA-37FB987039BC">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 22:32:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit length]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_notes" id="8367ED99-8109-1EEE-E1AF-BF5B96D8719C">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 22:32:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit notes]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D17CBB5B-540B-9101-DCE5-E040626B5AAC" name="VISIT PK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 22:40:01 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>011036E6-A98E-F68E-AF49-E46674524B1A</attributeRef>
+<attributeRef>54FA11C8-4EC4-C67C-2973-6FB50D9B357C</attributeRef>
+<attributeRef>8F5887E4-F722-5216-58A8-09C10F695F13</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
