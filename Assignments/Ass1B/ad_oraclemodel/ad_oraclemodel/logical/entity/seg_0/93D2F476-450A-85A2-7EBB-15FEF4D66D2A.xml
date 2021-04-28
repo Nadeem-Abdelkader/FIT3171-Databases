@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="animal_id" id="C48C4107-B18B-D3DA-A8CF-C27A0609447E">
 <createdBy>nadeem</createdBy>
@@ -45,7 +45,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ownership_rec_id" id="8DB1B9A1-2934-FEF7-296D-38A2C685808A">
 <createdBy>nadeem</createdBy>
@@ -67,8 +67,9 @@
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-28 03:43:20 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -79,8 +80,9 @@
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-28 03:43:34 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="false"/>
 </engineerTo>
 <newElementsIDs>12114F59-4A9B-DE12-AFD4-60EA18400D52,1B2D8F72-53A1-7CEF-76D8-A3958D094795</newElementsIDs>
 <usedAttributes>

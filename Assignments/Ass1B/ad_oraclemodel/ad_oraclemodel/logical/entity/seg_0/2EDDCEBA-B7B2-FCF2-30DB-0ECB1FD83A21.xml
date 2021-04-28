@@ -43,7 +43,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="service cost" id="0017E19A-E7FA-C8B6-5C73-0EC6020DBDB4">
+<Attribute name="service_cost" id="0017E19A-E7FA-C8B6-5C73-0EC6020DBDB4">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-27 23:12:59 UTC</createdTime>
 <commentInRDBMS><![CDATA[service cost]]></commentInRDBMS>
@@ -64,8 +64,9 @@
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-27 23:13:11 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

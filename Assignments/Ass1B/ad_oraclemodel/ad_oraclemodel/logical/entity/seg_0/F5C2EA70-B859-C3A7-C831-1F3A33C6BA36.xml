@@ -39,7 +39,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="drug_id" id="6DB3380D-1C27-18E6-82E0-24DC8FC4074E">
 <createdBy>nadeem</createdBy>
@@ -124,8 +126,9 @@
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-28 03:50:24 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
@@ -136,8 +139,9 @@
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-28 03:50:30 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="false"/>
 </engineerTo>
 <newElementsIDs>DC8BF4C2-7FFD-B85E-F62E-A56A417B83C6,3A8671C3-7099-6CD1-442A-5643AC6FE216</newElementsIDs>
 <usedAttributes>

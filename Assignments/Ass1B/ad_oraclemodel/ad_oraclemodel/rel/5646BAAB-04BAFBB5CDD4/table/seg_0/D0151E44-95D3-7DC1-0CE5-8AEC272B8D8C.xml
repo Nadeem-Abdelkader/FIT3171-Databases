@@ -89,7 +89,7 @@
 <Column name="owner_pref_vet_id" id="514ABCBD-A3B8-BC8A-25E3-80EF9AF4AFAA">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-28 04:06:05 UTC</createdTime>
-<commentInRDBMS><![CDATA[the owner prefered vet's id]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[the owner prefered vet  id]]></commentInRDBMS>
 <generatorID>DA34FDD7-0D9B-A28C-4B9C-F7BE6CF339A0</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>

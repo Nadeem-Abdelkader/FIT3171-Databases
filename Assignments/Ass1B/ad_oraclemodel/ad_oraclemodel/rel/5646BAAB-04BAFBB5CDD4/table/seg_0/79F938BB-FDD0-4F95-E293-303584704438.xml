@@ -78,6 +78,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7FFEAAC7-CC28-9CF7-576E-0ABE527A8282"/>
+<colUsage columnID="01C286C2-AFC0-7DDE-C765-936B9CF6E8E7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="09557406-F85B-1B1F-AC37-1F6599CB6718" name="SERVICE_REC_NK">
