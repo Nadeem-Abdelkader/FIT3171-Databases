@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2458353-1FBD-0D60-DD3D-4D361A1CC0C6" name="SPECIALISATION">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:31:50 UTC</createdTime>
+<generatorID>7DFA9618-E45A-6F53-6A17-2A099A8D5167</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="specialisation_id" id="93A2B0BD-1736-70D3-C1CA-E9E1CD5F73C2">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:31:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[specialisation id]]></commentInRDBMS>
+<generatorID>93BE5044-A63A-FA95-BF18-58FD75AB3AE3</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="specialisation_name" id="1EB3F697-50BF-9A53-0CDB-D17F064B0974">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:31:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[specialisation name]]></commentInRDBMS>
+<generatorID>8E40061A-1575-05D0-3093-06E98749BC74</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="906A1743-EA52-089D-8790-D94323748C3D" name="SPECIALISATION_PK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:31:50 UTC</createdTime>
+<generatorID>0520D776-EA37-9EC4-6D6C-9E831AD4BD8A</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93A2B0BD-1736-70D3-C1CA-E9E1CD5F73C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F158FF61-58CF-8DF4-8F5D-35DCEAFACC54" name="UN_SPECIALISATION_NAME">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:31:50 UTC</createdTime>
+<generatorID>186C1CE0-3BCA-B56C-2D51-414670CC9AAE</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EB3F697-50BF-9A53-0CDB-D17F064B0974"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

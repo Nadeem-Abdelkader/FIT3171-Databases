@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VISIT_PRESCRIPTION" directorySegmentName="seg_0" id="3A8671C3-7099-6CD1-442A-5643AC6FE216">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INVOICE_SERVICEREC" directorySegmentName="seg_0" id="D3659DC4-7D47-F7A1-9BF6-387127F1A167">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:56:53 UTC</createdTime>
+<createdTime>2021-04-28 06:05:06 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="370113D6-1A9F-3FE8-FF4D-739CC799AB01" value="true"/>
 </engineerTo>
-<sourcePk>D17CBB5B-540B-9101-DCE5-E040626B5AAC</sourcePk>
+<sourcePk>0339FBBA-76AD-D5F3-275B-D412F6FEECF4</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
+<nameOnSource>appears in</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>2B4C3876-0A42-176C-3591-0ADFBEEA4DF6</sourceEntity>
+<sourceEntity>A2B95F07-60D9-F156-3738-EC8AC434E044</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>F5C2EA70-B859-C3A7-C831-1F3A33C6BA36</targetEntity>
+<targetEntity>09D8419E-923E-EB38-D105-558D6CA3E214</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

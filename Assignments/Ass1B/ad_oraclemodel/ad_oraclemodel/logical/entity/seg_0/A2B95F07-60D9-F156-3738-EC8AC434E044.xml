@@ -4,7 +4,7 @@
 <createdTime>2021-04-27 23:07:26 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,26 +21,28 @@
 <commentInRDBMS><![CDATA[invoice date]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="invoice_time" id="93AB8AB7-33CE-80FE-C798-DA54A010C57C">
+<Attribute name="animal_id" id="3DDA145C-17F4-74EB-8BCF-26919D6634D1">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:07:38 UTC</createdTime>
-<commentInRDBMS><![CDATA[invoice time]]></commentInRDBMS>
+<createdTime>2021-04-28 02:43:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>132CAF2A-39EB-06FA-53AD-ED8DE7F65ABD</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
+<referedAttribute>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="invoice_total_due" id="702625D9-A0DC-5518-DAA6-DC3370F06062">
 <createdBy>nadeem</createdBy>
@@ -48,7 +50,7 @@
 <commentInRDBMS><![CDATA[invoice total due]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,29 +65,13 @@
 <commentInRDBMS><![CDATA[invoice payment method]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="animal_id" id="3DDA145C-17F4-74EB-8BCF-26919D6634D1">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:43:01 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>132CAF2A-39EB-06FA-53AD-ED8DE7F65ABD</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="vet_id" id="1AB84B0B-EC8F-88BA-B505-72E4C618C6C1">
 <createdBy>nadeem</createdBy>
@@ -94,7 +80,7 @@
 <generatorID>7E516E49-ABA7-1A2E-4292-F978DB2963E6</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <referedAttribute>624AF373-8407-B94D-9956-9FAE7416F00D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -103,45 +89,19 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="invoice_id" id="43AAC8BB-BDCE-0775-F551-5151A1603920">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:46:49 UTC</createdTime>
-<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D24F52D8-1282-CB46-D326-CFBA1394B264" name="INVOICE PKv1">
+<identifier id="0339FBBA-76AD-D5F3-275B-D412F6FEECF4" name="INVOICE PK">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 05:47:29 UTC</createdTime>
+<createdTime>2021-04-28 06:03:28 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>43AAC8BB-BDCE-0775-F551-5151A1603920</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="DF1D4530-9B62-6168-F447-929A270A437A" name="INVOICE NK">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 05:47:44 UTC</createdTime>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<newElementsIDs>7E516E49-ABA7-1A2E-4292-F978DB2963E6,132CAF2A-39EB-06FA-53AD-ED8DE7F65ABD</newElementsIDs>
-<usedAttributes>
-<attributeRef>1AB84B0B-EC8F-88BA-B505-72E4C618C6C1</attributeRef>
 <attributeRef>3DDA145C-17F4-74EB-8BCF-26919D6634D1</attributeRef>
+<attributeRef>29BAD570-F226-3CE7-B422-55957C19EF09</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INVOICE_DRUGREC" directorySegmentName="seg_0" id="759AD1A5-6F98-492B-72C5-04093ED616B2">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:19:31 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A15AF85B-18DF-FC5D-FAD7-3447DB9D912D" value="true"/>
+</engineerTo>
+<sourcePk>0339FBBA-76AD-D5F3-275B-D412F6FEECF4</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>appears in</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A2B95F07-60D9-F156-3738-EC8AC434E044</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F617F60A-3DBD-2B31-807F-4F8C2EC1653F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D9487BAF-1CCB-C516-68DD-31C2F7EEB142" containerWithKeyObject="B7B46739-9C85-51BE-AD57-35DFEFE6A18A" localFKIndex="19E3A174-E83C-027D-26FB-2E146E076CA5" name="VET_INVOICE">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:31:50 UTC</createdTime>
+<generatorID>7E516E49-ABA7-1A2E-4292-F978DB2963E6</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<referredTableLongName>VET</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14B54AC4-18A6-0C60-3799-F941F1BDA92D</referredTableID>
+<keyObject>FCAB1A15-F742-621C-0A39-FB87FD20EF85</keyObject>
+<referredKeyID>FCAB1A15-F742-621C-0A39-FB87FD20EF85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vet_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

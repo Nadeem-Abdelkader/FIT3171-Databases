@@ -4,7 +4,7 @@
 <createdTime>2021-04-27 22:32:26 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,26 +21,28 @@
 <commentInRDBMS><![CDATA[visit date]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="visit_time" id="54FA11C8-4EC4-C67C-2973-6FB50D9B357C">
+<Attribute name="animal_id" id="88A7A08A-C265-FDE1-4D6E-FBA5604312A0">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 22:32:38 UTC</createdTime>
-<commentInRDBMS><![CDATA[visit time]]></commentInRDBMS>
+<createdTime>2021-04-28 02:44:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>4C115DC2-CA97-992C-BB76-FF1F7500CA0B</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
+<referedAttribute>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="visit_length" id="EAF7C2A7-4C83-EAEB-F8CA-37FB987039BC">
 <createdBy>nadeem</createdBy>
@@ -48,7 +50,7 @@
 <commentInRDBMS><![CDATA[visit length]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,7 +64,7 @@
 <commentInRDBMS><![CDATA[visit notes]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -78,7 +80,7 @@
 <generatorID>EAB139F9-A531-1D9F-1370-05A24C435E2E</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <referedAttribute>6952ECB8-7E93-1CEB-9B8C-F9C1EDAD773E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,14 +96,14 @@
 <generatorID>18A342BE-106D-0DCD-A31D-65B11345B4A6</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <referedAttribute>624AF373-8407-B94D-9956-9FAE7416F00D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="visit_prev_visit_id" id="22E5E599-DF0F-8AAF-EF9C-C1EAFF811F59">
 <createdBy>nadeem</createdBy>
@@ -109,25 +111,9 @@
 <commentInRDBMS><![CDATA[previous visit id, if any]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="animal_id" id="88A7A08A-C265-FDE1-4D6E-FBA5604312A0">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:44:42 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>4C115DC2-CA97-992C-BB76-FF1F7500CA0B</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -141,12 +127,11 @@
 <createdTime>2021-04-27 22:40:01 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="38B70020-745F-CFB6-DB08-03A47FAC6DCC" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>011036E6-A98E-F68E-AF49-E46674524B1A</attributeRef>
-<attributeRef>54FA11C8-4EC4-C67C-2973-6FB50D9B357C</attributeRef>
 <attributeRef>88A7A08A-C265-FDE1-4D6E-FBA5604312A0</attributeRef>
 </usedAttributes>
 </identifier>

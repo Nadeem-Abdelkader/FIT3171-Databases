@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DRUG_DRUGREC" directorySegmentName="seg_0" id="BF0151F4-0A01-C58F-1925-F7D21407629E">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:20:00 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A15AF85B-18DF-FC5D-FAD7-3447DB9D912D" value="true"/>
+</engineerTo>
+<sourcePk>39AD3C64-C90A-509A-513C-533DE01F2B4B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>appears in</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D1C2BCA-5DB7-9306-B07E-8E3ED01F9C1F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F617F60A-3DBD-2B31-807F-4F8C2EC1653F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

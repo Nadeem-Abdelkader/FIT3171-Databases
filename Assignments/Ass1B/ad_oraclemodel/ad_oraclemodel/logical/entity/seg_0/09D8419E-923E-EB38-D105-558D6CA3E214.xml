@@ -4,7 +4,7 @@
 <createdTime>2021-04-27 23:10:59 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="370113D6-1A9F-3FE8-FF4D-739CC799AB01" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +22,7 @@
 <generatorID>AF198AD5-050B-7051-01D3-D1E8874D220A</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="370113D6-1A9F-3FE8-FF4D-739CC799AB01" value="true"/>
 </engineerTo>
 <referedAttribute>E06854CB-2498-3A18-78FC-08619E215063</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,44 +31,51 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="service_req_id" id="30DB8DA8-B159-D8DD-1094-C2BC45743205">
+<Attribute name="animal_id" id="2BA72633-9C95-8543-5455-5867DB2AB798">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:30:01 UTC</createdTime>
-<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
+<createdTime>2021-04-28 06:05:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>D3659DC4-7D47-F7A1-9BF6-387127F1A167</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="370113D6-1A9F-3FE8-FF4D-739CC799AB01" value="true"/>
 </engineerTo>
+<referedAttribute>3DDA145C-17F4-74EB-8BCF-26919D6634D1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="invoice_date" id="37B45724-2322-6CCA-96B1-4EEA6AC0615D">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:05:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[invoice date]]></commentInRDBMS>
+<generatorID>D3659DC4-7D47-F7A1-9BF6-387127F1A167</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="370113D6-1A9F-3FE8-FF4D-739CC799AB01" value="true"/>
+</engineerTo>
+<referedAttribute>29BAD570-F226-3CE7-B422-55957C19EF09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6BBFDFA2-FB85-869B-A148-C620B2182D40" name="SERVICE_REC PK">
+<identifier id="A29C50FE-EE12-6C94-F860-2A3821EC50C5" name="SERVICE_REC PK">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 05:46:10 UTC</createdTime>
+<createdTime>2021-04-28 06:05:52 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="370113D6-1A9F-3FE8-FF4D-739CC799AB01" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>30DB8DA8-B159-D8DD-1094-C2BC45743205</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="A436A0C0-7AB6-4F89-5E43-F4242A8111DA" name="SERVICE_REQ NK">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 05:46:16 UTC</createdTime>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<newElementsIDs>AF198AD5-050B-7051-01D3-D1E8874D220A,EE9AFADC-8B1C-770F-6630-55FEB64BEC29</newElementsIDs>
-<usedAttributes>
 <attributeRef>9625E3A3-36A1-B02A-9C5F-9836E8A7F812</attributeRef>
+<attributeRef>37B45724-2322-6CCA-96B1-4EEA6AC0615D</attributeRef>
+<attributeRef>2BA72633-9C95-8543-5455-5867DB2AB798</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
