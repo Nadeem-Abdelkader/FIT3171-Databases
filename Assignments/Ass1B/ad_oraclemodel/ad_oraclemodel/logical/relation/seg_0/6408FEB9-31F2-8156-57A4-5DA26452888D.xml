@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANIMALTYPE_ANIMAL" directorySegmentName="seg_0" id="6408FEB9-31F2-8156-57A4-5DA26452888D">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 02:06:27 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<sourcePk>D8A6B4C9-AE24-5CE0-705E-B06185487089</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D617D4A8-8220-E2BA-1277-DF309D4979F4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9E475694-F285-88B7-1A44-A78B58CC0CC7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

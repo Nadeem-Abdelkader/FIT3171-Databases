@@ -118,6 +118,22 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="animal_id" id="74B50BD6-D386-06C7-1E65-362B0D3CF9B0">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 02:11:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>DC251483-6247-B052-424C-E84836CC5CB4</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>8135D6E4-C526-6800-4A1C-3A2F720C309A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D17CBB5B-540B-9101-DCE5-E040626B5AAC" name="VISIT PK">

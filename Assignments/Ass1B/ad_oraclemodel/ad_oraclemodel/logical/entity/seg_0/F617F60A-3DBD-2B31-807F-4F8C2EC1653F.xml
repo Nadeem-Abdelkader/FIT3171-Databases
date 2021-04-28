@@ -74,6 +74,22 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="animal_id" id="C69FCC69-2CC8-FB48-146C-2A689160EC43">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 02:11:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>546A6FD4-81F0-CD7D-4B02-E8B3CE81EB1F</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>8135D6E4-C526-6800-4A1C-3A2F720C309A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="953E8A05-55BF-BB06-EDF9-BCB6041EC712" name="DRUG_REC PK">

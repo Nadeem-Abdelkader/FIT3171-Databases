@@ -62,6 +62,22 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="animal_id" id="CE81545C-37C6-5AAF-2C8D-C9BD6E8084A1">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 02:11:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>8836D759-E785-FB26-766D-3AD3F7DC6E92</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>8135D6E4-C526-6800-4A1C-3A2F720C309A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="24051195-CAF6-B1CC-5FF1-7AE85FC10B26" name="SERVICE_REC PK">

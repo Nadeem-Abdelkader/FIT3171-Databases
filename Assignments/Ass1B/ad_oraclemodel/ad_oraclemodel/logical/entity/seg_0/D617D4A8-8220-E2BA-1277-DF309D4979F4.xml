@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="93D2F476-450A-85A2-7EBB-15FEF4D66D2A" name="OWNERSHIP_REC">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D617D4A8-8220-E2BA-1277-DF309D4979F4" name="ANIMAL_TYPE">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:02:55 UTC</createdTime>
+<createdTime>2021-04-28 02:05:10 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -15,48 +15,47 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="owner_id" id="15495403-97D6-C1A7-A707-049EF9C91D35">
+<Attribute name="animal_type_id" id="4EA56594-A2DF-B382-4C35-382D21716F0A">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 01:30:40 UTC</createdTime>
-<commentInRDBMS><![CDATA[owner id number]]></commentInRDBMS>
-<generatorID>1B2D8F72-53A1-7CEF-76D8-A3958D094795</generatorID>
+<createdTime>2021-04-28 02:05:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal type id]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<referedAttribute>04BEAF63-31B8-69B0-61CD-F7E308557AEF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_id" id="C947599F-17A8-9D72-BF74-6B968EAE2A5D">
+<Attribute name="animal_type_name" id="8F6C1C59-1F91-0FE7-38F6-E133CA439C0B">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:12:56 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>BB609FE8-D7B6-FBAB-4393-E15AED6D6F81</generatorID>
+<createdTime>2021-04-28 02:05:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal type name]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<referedAttribute>8135D6E4-C526-6800-4A1C-3A2F720C309A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="2CA50B25-458B-C007-742C-2C5F0D7EFC0F" name="OWNERSHIP_REC PK">
+<identifier id="D8A6B4C9-AE24-5CE0-705E-B06185487089" name="ANIMAL_TYPE PK">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:03:30 UTC</createdTime>
+<createdTime>2021-04-28 02:05:36 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>4EA56594-A2DF-B382-4C35-382D21716F0A</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

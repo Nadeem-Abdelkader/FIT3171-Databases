@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="animal_id" id="8135D6E4-C526-6800-4A1C-3A2F720C309A">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 02:11:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="animal_name" id="0884400E-FB8A-0402-8FEF-5F88FF7BB85F">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-27 22:41:58 UTC</createdTime>
@@ -61,20 +75,6 @@
 </listOfValues>
 <ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_type" id="EC5FB267-E684-AB61-69ED-552FADD9D73F">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 22:41:59 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal type]]></commentInRDBMS>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="animal_deceased" id="298D8C60-A0FA-1EAB-15D5-4DB9B1F64F27">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-27 23:06:36 UTC</createdTime>
@@ -94,16 +94,16 @@
 </listOfValues>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_id" id="0DB6A161-95CB-4C7B-ECBC-B8CD45805160">
+<Attribute name="animal_type_id" id="794392EA-1FFD-4618-3879-0CD9868DA884">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 01:24:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal_id]]></commentInRDBMS>
-<generatorID>4B8EA442-FC0F-76BA-126F-542E6ADC2627</generatorID>
+<createdTime>2021-04-28 02:06:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal type id]]></commentInRDBMS>
+<generatorID>6408FEB9-31F2-8156-57A4-5DA26452888D</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<referedAttribute>D79AB50B-807C-91DB-4005-5F998A05F400</referedAttribute>
+<referedAttribute>4EA56594-A2DF-B382-4C35-382D21716F0A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -120,6 +120,9 @@
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>8135D6E4-C526-6800-4A1C-3A2F720C309A</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
