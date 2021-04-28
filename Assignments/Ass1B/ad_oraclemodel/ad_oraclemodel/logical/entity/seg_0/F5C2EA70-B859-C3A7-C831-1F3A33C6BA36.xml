@@ -57,11 +57,11 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="visit_date" id="9113F8DE-2493-5E4E-F582-F294D1C2935A">
+<Attribute name="visit_date" id="C6EE483F-AFF7-8BD6-5DC9-23C1B5CE9E01">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 01:19:28 UTC</createdTime>
+<createdTime>2021-04-28 02:56:53 UTC</createdTime>
 <commentInRDBMS><![CDATA[visit date]]></commentInRDBMS>
-<generatorID>5922B55F-6B96-A792-5FCC-7FDC6982EF3D</generatorID>
+<generatorID>3A8671C3-7099-6CD1-442A-5643AC6FE216</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -72,11 +72,11 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="visit_time" id="EDDB81D8-1174-DEB1-5113-4251A7A2DCF2">
+<Attribute name="visit_time" id="78C92A2F-3F47-768D-7278-2074D53E36DA">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 01:19:28 UTC</createdTime>
+<createdTime>2021-04-28 02:56:53 UTC</createdTime>
 <commentInRDBMS><![CDATA[visit time]]></commentInRDBMS>
-<generatorID>5922B55F-6B96-A792-5FCC-7FDC6982EF3D</generatorID>
+<generatorID>3A8671C3-7099-6CD1-442A-5643AC6FE216</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -88,27 +88,11 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_id" id="48F02AD2-D91F-DCB1-BA50-79B55DD0604B">
+<Attribute name="animal_id" id="100990FF-69B3-BCEB-7C70-B5EB8E7EB748">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:43:54 UTC</createdTime>
+<createdTime>2021-04-28 02:56:53 UTC</createdTime>
 <commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>621CD42A-2718-82D0-B98A-074398B079BD</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="animal_id1" id="0DA267A0-0BCB-D0C6-B59F-0ADB0913D4ED">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:47:27 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>5922B55F-6B96-A792-5FCC-7FDC6982EF3D</generatorID>
+<generatorID>3A8671C3-7099-6CD1-442A-5643AC6FE216</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -133,9 +117,9 @@
 <usedAttributes>
 <attributeRef>939AEB8A-F914-105A-1D48-062F61C233FA</attributeRef>
 <attributeRef>3D67A9A3-B722-0A81-ABA3-D002789724FC</attributeRef>
-<attributeRef>9113F8DE-2493-5E4E-F582-F294D1C2935A</attributeRef>
-<attributeRef>EDDB81D8-1174-DEB1-5113-4251A7A2DCF2</attributeRef>
-<attributeRef>48F02AD2-D91F-DCB1-BA50-79B55DD0604B</attributeRef>
+<attributeRef>C6EE483F-AFF7-8BD6-5DC9-23C1B5CE9E01</attributeRef>
+<attributeRef>78C92A2F-3F47-768D-7278-2074D53E36DA</attributeRef>
+<attributeRef>100990FF-69B3-BCEB-7C70-B5EB8E7EB748</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

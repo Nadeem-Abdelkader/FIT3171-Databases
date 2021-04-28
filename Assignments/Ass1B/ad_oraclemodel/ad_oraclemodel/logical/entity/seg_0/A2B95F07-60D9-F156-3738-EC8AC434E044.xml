@@ -42,20 +42,6 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="invoice_serv_vet_id" id="697DD963-9C16-3F22-3533-A888273953F5">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:07:38 UTC</createdTime>
-<commentInRDBMS><![CDATA[servicing vet id]]></commentInRDBMS>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="invoice_total_due" id="702625D9-A0DC-5518-DAA6-DC3370F06062">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-27 23:07:39 UTC</createdTime>
@@ -95,6 +81,22 @@
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
 <referedAttribute>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vet_id" id="1AB84B0B-EC8F-88BA-B505-72E4C618C6C1">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 02:59:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet id]]></commentInRDBMS>
+<generatorID>7E516E49-ABA7-1A2E-4292-F978DB2963E6</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>624AF373-8407-B94D-9956-9FAE7416F00D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
