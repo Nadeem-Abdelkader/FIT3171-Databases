@@ -29,53 +29,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="invoice_date" id="1038C2DD-0368-8BA8-DB56-04C5B3A02D62">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:30:57 UTC</createdTime>
-<commentInRDBMS><![CDATA[invoice date]]></commentInRDBMS>
-<generatorID>EE9AFADC-8B1C-770F-6630-55FEB64BEC29</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>29BAD570-F226-3CE7-B422-55957C19EF09</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="invoice_time" id="CC5A5D0C-9EFD-DB5C-B058-573C49DB0FDC">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:30:57 UTC</createdTime>
-<commentInRDBMS><![CDATA[invoice time]]></commentInRDBMS>
-<generatorID>EE9AFADC-8B1C-770F-6630-55FEB64BEC29</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>93AB8AB7-33CE-80FE-C798-DA54A010C57C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="animal_id" id="CE058B74-D5F5-20CE-8CD4-E56B246C68C6">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:45:48 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>EE9AFADC-8B1C-770F-6630-55FEB64BEC29</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>3DDA145C-17F4-74EB-8BCF-26919D6634D1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="service_req_id" id="30DB8DA8-B159-D8DD-1094-C2BC45743205">
@@ -92,6 +45,22 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="invoice_id" id="94230070-1434-9C64-DA08-4EF5E59A58C9">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 03:47:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
+<generatorID>EE9AFADC-8B1C-770F-6630-55FEB64BEC29</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>43AAC8BB-BDCE-0775-F551-5151A1603920</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="874B8480-3531-57F6-4C1A-2C0B58F64E81" name="SERVICE_REC PK">
@@ -104,6 +73,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>30DB8DA8-B159-D8DD-1094-C2BC45743205</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="02A91637-CB15-2589-6E8C-26F7AD9C1188" name="SERVICE_REQ NK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 03:40:47 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<newElementsIDs>AF198AD5-050B-7051-01D3-D1E8874D220A,EE9AFADC-8B1C-770F-6630-55FEB64BEC29</newElementsIDs>
+<usedAttributes>
+<attributeRef>9625E3A3-36A1-B02A-9C5F-9836E8A7F812</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

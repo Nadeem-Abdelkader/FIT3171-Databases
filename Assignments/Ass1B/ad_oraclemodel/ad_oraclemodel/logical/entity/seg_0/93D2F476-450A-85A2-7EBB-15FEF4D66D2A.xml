@@ -63,72 +63,29 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BAE8BBC8-038B-2952-F143-C605718669FF" name="OWNERSHIP_REC PK">
+<identifier id="E33B06B9-6FE0-E676-9CFA-4DDC3241381C" name="OWNERSHIP_REC PK">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:34:03 UTC</createdTime>
+<createdTime>2021-04-28 03:43:20 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C48C4107-B18B-D3DA-A8CF-C27A0609447E</attributeRef>
-<attributeRef>15495403-97D6-C1A7-A707-049EF9C91D35</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="9FCA6A64-42BC-B941-4CD0-89D60E3EDF65" name="OWNERSHIP_REC PKv1">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:34:03 UTC</createdTime>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>C48C4107-B18B-D3DA-A8CF-C27A0609447E</attributeRef>
-<attributeRef>15495403-97D6-C1A7-A707-049EF9C91D35</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="E3E75992-C41D-001B-DCA3-73FA2DCC5AE9" name="OWNERSHIP_REC PKv2">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:34:03 UTC</createdTime>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>C48C4107-B18B-D3DA-A8CF-C27A0609447E</attributeRef>
-<attributeRef>15495403-97D6-C1A7-A707-049EF9C91D35</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="77890584-7C5C-09BE-411B-10632A0A2653" name="OWNERSHIP_REC PKv3">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:34:03 UTC</createdTime>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>C48C4107-B18B-D3DA-A8CF-C27A0609447E</attributeRef>
-<attributeRef>15495403-97D6-C1A7-A707-049EF9C91D35</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="9450B19F-C61A-C57F-016B-0E9A9C96D3C2" name="OWNERSHIP_REC PKv4">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:34:01 UTC</createdTime>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>C48C4107-B18B-D3DA-A8CF-C27A0609447E</attributeRef>
-<attributeRef>15495403-97D6-C1A7-A707-049EF9C91D35</attributeRef>
-<attributeRef>C48C4107-B18B-D3DA-A8CF-C27A0609447E</attributeRef>
-<attributeRef>15495403-97D6-C1A7-A707-049EF9C91D35</attributeRef>
 <attributeRef>8DB1B9A1-2934-FEF7-296D-38A2C685808A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3D019D57-DAC3-5384-8405-F2074E2150F0" name="OWNERSHIP_REC NK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 03:43:34 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<newElementsIDs>12114F59-4A9B-DE12-AFD4-60EA18400D52,1B2D8F72-53A1-7CEF-76D8-A3958D094795</newElementsIDs>
+<usedAttributes>
+<attributeRef>C48C4107-B18B-D3DA-A8CF-C27A0609447E</attributeRef>
+<attributeRef>15495403-97D6-C1A7-A707-049EF9C91D35</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

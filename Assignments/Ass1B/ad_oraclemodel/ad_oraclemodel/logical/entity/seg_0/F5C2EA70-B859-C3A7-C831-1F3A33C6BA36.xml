@@ -55,7 +55,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="visit_date" id="C6EE483F-AFF7-8BD6-5DC9-23C1B5CE9E01">
 <createdBy>nadeem</createdBy>
@@ -86,7 +86,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="animal_id" id="100990FF-69B3-BCEB-7C70-B5EB8E7EB748">
 <createdBy>nadeem</createdBy>
@@ -102,21 +102,46 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prescription_id" id="43766CDC-0C52-6A44-F81E-DA704CCA9975">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 03:49:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E670FCDD-B869-E6FD-3E16-6504AC45CC7C" name="PRESCRIPTION PK">
+<identifier id="F9F2726B-60C0-073B-AA67-917F50A0FDA7" name="PRESCRIPTION PK">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 22:51:07 UTC</createdTime>
+<createdTime>2021-04-28 03:50:24 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>939AEB8A-F914-105A-1D48-062F61C233FA</attributeRef>
-<attributeRef>3D67A9A3-B722-0A81-ABA3-D002789724FC</attributeRef>
+<attributeRef>43766CDC-0C52-6A44-F81E-DA704CCA9975</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C24D973C-410B-00E1-5FDB-F6936CE4D912" name="PRESCRIPTION NK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 03:50:30 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<newElementsIDs>DC8BF4C2-7FFD-B85E-F62E-A56A417B83C6,3A8671C3-7099-6CD1-442A-5643AC6FE216</newElementsIDs>
+<usedAttributes>
+<attributeRef>6DB3380D-1C27-18E6-82E0-24DC8FC4074E</attributeRef>
 <attributeRef>C6EE483F-AFF7-8BD6-5DC9-23C1B5CE9E01</attributeRef>
 <attributeRef>78C92A2F-3F47-768D-7278-2074D53E36DA</attributeRef>
 <attributeRef>100990FF-69B3-BCEB-7C70-B5EB8E7EB748</attributeRef>

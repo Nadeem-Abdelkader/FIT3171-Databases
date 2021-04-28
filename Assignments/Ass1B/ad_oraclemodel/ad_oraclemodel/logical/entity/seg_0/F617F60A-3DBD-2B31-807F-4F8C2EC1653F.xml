@@ -43,49 +43,18 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="invoice_date" id="A7C5CC14-FBBA-EC75-3D2C-A5D67BF4DDF9">
+<Attribute name="invoice_id" id="9107F569-1183-2E2E-3BF7-375E567E0CB9">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:32:32 UTC</createdTime>
-<commentInRDBMS><![CDATA[invoice date]]></commentInRDBMS>
+<createdTime>2021-04-28 03:47:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
 <generatorID>82E882A2-DB46-FAF7-479F-BCA999D55379</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<referedAttribute>29BAD570-F226-3CE7-B422-55957C19EF09</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="invoice_time" id="C091F899-8BBD-CDEB-E08E-717A64AA53D7">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:32:32 UTC</createdTime>
-<commentInRDBMS><![CDATA[invoice time]]></commentInRDBMS>
-<generatorID>82E882A2-DB46-FAF7-479F-BCA999D55379</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>93AB8AB7-33CE-80FE-C798-DA54A010C57C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="animal_id" id="A84C0FE6-F9AD-93D7-4F2A-874AADA7144B">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:45:48 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>82E882A2-DB46-FAF7-479F-BCA999D55379</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>3DDA145C-17F4-74EB-8BCF-26919D6634D1</referedAttribute>
+<referedAttribute>43AAC8BB-BDCE-0775-F551-5151A1603920</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -103,9 +72,6 @@
 </engineerTo>
 <usedAttributes>
 <attributeRef>AD31418F-6701-4060-3DD8-8FDDA5807753</attributeRef>
-<attributeRef>A7C5CC14-FBBA-EC75-3D2C-A5D67BF4DDF9</attributeRef>
-<attributeRef>C091F899-8BBD-CDEB-E08E-717A64AA53D7</attributeRef>
-<attributeRef>A84C0FE6-F9AD-93D7-4F2A-874AADA7144B</attributeRef>
 </usedAttributes>
 </identifier>
 <identifier id="6E6A1D8E-E39A-60D1-20F6-969FA797C60B" name="DRUG_REC PKv1">
@@ -118,9 +84,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>AD31418F-6701-4060-3DD8-8FDDA5807753</attributeRef>
-<attributeRef>A84C0FE6-F9AD-93D7-4F2A-874AADA7144B</attributeRef>
-<attributeRef>C091F899-8BBD-CDEB-E08E-717A64AA53D7</attributeRef>
-<attributeRef>A7C5CC14-FBBA-EC75-3D2C-A5D67BF4DDF9</attributeRef>
+<attributeRef>9107F569-1183-2E2E-3BF7-375E567E0CB9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
