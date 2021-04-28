@@ -113,19 +113,19 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="306" y="527" width="66" height="30"/>
+<labelBounds x="372" y="519" width="66" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="306" y="544" width="18" height="30"/>
+<labelBounds x="371" y="544" width="18" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="306" y="483"/>
-<point x="306" y="580"/>
+<point x="372" y="483"/>
+<point x="371" y="580"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="132CAF2A-39EB-06FA-53AD-ED8DE7F65ABD" otype="Relation" vid_source="093BEBDB-9166-ED04-31DF-8685F7DAAA0E" vid_target="937B25FB-D422-882F-4A6B-BE056E5491A9">

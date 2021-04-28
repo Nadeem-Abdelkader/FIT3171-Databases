@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="drug_rec_qty_supplied" id="FB745044-15D4-EA56-581D-DEEEA98DACB3">
+<Attribute name="drug_req_qty_supplied" id="2733A4BB-8F26-A8F1-B09B-74FE8A5E5F3C">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:16:59 UTC</createdTime>
+<createdTime>2021-04-28 03:37:56 UTC</createdTime>
 <commentInRDBMS><![CDATA[drug quantity supplied]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
@@ -25,7 +25,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="drug_id" id="AD31418F-6701-4060-3DD8-8FDDA5807753">
 <createdBy>nadeem</createdBy>
@@ -41,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="invoice_date" id="A7C5CC14-FBBA-EC75-3D2C-A5D67BF4DDF9">
 <createdBy>nadeem</createdBy>
@@ -72,7 +74,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="animal_id" id="A84C0FE6-F9AD-93D7-4F2A-874AADA7144B">
 <createdBy>nadeem</createdBy>
@@ -88,13 +90,27 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="953E8A05-55BF-BB06-EDF9-BCB6041EC712" name="DRUG_REC PK">
+<identifier id="9F520D0C-BA6D-FBCD-AD01-9FD85D667A41" name="DRUG_REC PK">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:17:14 UTC</createdTime>
+<createdTime>2021-04-28 03:34:25 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>AD31418F-6701-4060-3DD8-8FDDA5807753</attributeRef>
+<attributeRef>A7C5CC14-FBBA-EC75-3D2C-A5D67BF4DDF9</attributeRef>
+<attributeRef>C091F899-8BBD-CDEB-E08E-717A64AA53D7</attributeRef>
+<attributeRef>A84C0FE6-F9AD-93D7-4F2A-874AADA7144B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6E6A1D8E-E39A-60D1-20F6-969FA797C60B" name="DRUG_REC PKv1">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 03:34:25 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -102,9 +118,9 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>AD31418F-6701-4060-3DD8-8FDDA5807753</attributeRef>
-<attributeRef>A7C5CC14-FBBA-EC75-3D2C-A5D67BF4DDF9</attributeRef>
-<attributeRef>C091F899-8BBD-CDEB-E08E-717A64AA53D7</attributeRef>
 <attributeRef>A84C0FE6-F9AD-93D7-4F2A-874AADA7144B</attributeRef>
+<attributeRef>C091F899-8BBD-CDEB-E08E-717A64AA53D7</attributeRef>
+<attributeRef>A7C5CC14-FBBA-EC75-3D2C-A5D67BF4DDF9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
