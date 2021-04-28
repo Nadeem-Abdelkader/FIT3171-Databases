@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANIMAL_OWNERSHIPREC" directorySegmentName="seg_0" id="D02E411A-DE4A-9978-93A0-2050956B0706">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:42:25 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<sourcePk>CBB1211B-F424-8B86-0BB8-CC52608D0CD3</sourcePk>
+<targetPk>2CA50B25-458B-C007-742C-2C5F0D7EFC0F</targetPk>
+<identifying>false</identifying>
+<nameOnSource>appears in</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E475694-F285-88B7-1A44-A78B58CC0CC7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>93D2F476-450A-85A2-7EBB-15FEF4D66D2A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

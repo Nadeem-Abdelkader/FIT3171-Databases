@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="serv_code" id="E06854CB-2498-3A18-78FC-08619E215063">
+<Attribute name="service_code" id="E06854CB-2498-3A18-78FC-08619E215063">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-27 23:12:57 UTC</createdTime>
 <commentInRDBMS><![CDATA[service code]]></commentInRDBMS>
@@ -54,9 +54,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
+<dataTypePrecision>7</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

@@ -64,10 +64,15 @@
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
+<constraintName>chk_animalgender</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Female"/>
+<valueDef value="M" description="Male"/>
+</listOfValues>
 <ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="animal_type" id="EC5FB267-E684-AB61-69ED-552FADD9D73F">
@@ -92,11 +97,48 @@
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
+<constraintName>chk_animaldeceased</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_id" id="BE8B0A11-4BF6-8C8F-23E5-5E3E4DBA7347">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:42:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner id]]></commentInRDBMS>
+<generatorID>D02E411A-DE4A-9978-93A0-2050956B0706</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>133EBCF8-5F4A-5EE5-216C-F55188883343</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="animal_id1" id="8BFD0521-74E5-2144-B640-A1DAB83420BD">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:42:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal_id]]></commentInRDBMS>
+<generatorID>D02E411A-DE4A-9978-93A0-2050956B0706</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>D79AB50B-807C-91DB-4005-5F998A05F400</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

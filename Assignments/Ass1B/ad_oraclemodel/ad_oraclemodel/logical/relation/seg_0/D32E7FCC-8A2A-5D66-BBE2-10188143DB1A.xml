@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OWNER_OWNERSHIPREC" directorySegmentName="seg_0" id="D32E7FCC-8A2A-5D66-BBE2-10188143DB1A">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:11:24 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<sourcePk>008B9996-9EFA-26FD-3CD4-82B921FC9C33</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>appears in</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>79B7EAAE-B364-7469-FCE5-F9426A8EFD29</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>93D2F476-450A-85A2-7EBB-15FEF4D66D2A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

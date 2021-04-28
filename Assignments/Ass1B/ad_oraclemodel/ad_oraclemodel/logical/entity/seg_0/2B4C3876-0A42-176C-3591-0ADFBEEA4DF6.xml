@@ -99,6 +99,104 @@
 <dataTypeSize>250</dataTypeSize>
 <ownDataTypeParameters>250,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="clinic_id" id="32AAAA58-C5DC-5B4F-490B-6688DC90BD5C">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 23:46:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[clinic id]]></commentInRDBMS>
+<generatorID>EAB139F9-A531-1D9F-1370-05A24C435E2E</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>6952ECB8-7E93-1CEB-9B8C-F9C1EDAD773E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="animal_id" id="E76851DD-CE49-F5CD-B095-A306C286F1C6">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 23:48:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>DC251483-6247-B052-424C-E84836CC5CB4</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>FEF0DEBB-777D-3E88-35D8-E8269E9146D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vet_id" id="C87EBFBB-34F3-FED3-162C-8CACCDF85496">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 23:50:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet id]]></commentInRDBMS>
+<generatorID>18A342BE-106D-0DCD-A31D-65B11345B4A6</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>624AF373-8407-B94D-9956-9FAE7416F00D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_date1" id="4D60AE3B-8E52-6CA9-75D3-3600795CCF9F">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 23:56:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit date]]></commentInRDBMS>
+<generatorID>1E09D71A-6003-EBAD-AB46-BBBF20F82E24</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>011036E6-A98E-F68E-AF49-E46674524B1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_time1" id="9DE9B234-BA16-AEEB-8A8F-963EBB1D8942">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 23:56:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit time]]></commentInRDBMS>
+<generatorID>1E09D71A-6003-EBAD-AB46-BBBF20F82E24</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>54FA11C8-4EC4-C67C-2973-6FB50D9B357C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="visit_attending_vet_id1" id="E34649EA-C422-A117-78D1-67A736475C9A">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 23:56:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[vist attending vet id]]></commentInRDBMS>
+<generatorID>1E09D71A-6003-EBAD-AB46-BBBF20F82E24</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8F5887E4-F722-5216-58A8-09C10F695F13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D17CBB5B-540B-9101-DCE5-E040626B5AAC" name="VISIT PK">

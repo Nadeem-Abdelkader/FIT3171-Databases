@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLINIC_VISIT" directorySegmentName="seg_0" id="EAB139F9-A531-1D9F-1370-05A24C435E2E">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-27 23:46:45 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<sourcePk>83F002E5-0B6F-513E-47D9-4FE9E30ED44C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>877AF836-41EA-108E-E720-C9BCF4B918A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B4C3876-0A42-176C-3591-0ADFBEEA4DF6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -70,6 +70,69 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="service_code" id="9625E3A3-36A1-B02A-9C5F-9836E8A7F812">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:26:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[service code]]></commentInRDBMS>
+<generatorID>AF198AD5-050B-7051-01D3-D1E8874D220A</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>E06854CB-2498-3A18-78FC-08619E215063</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="animal_id1" id="E56AC800-B161-4250-1118-8696230EFF07">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:28:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>11F36279-615C-E47B-C20A-CA4C35CBAA0B</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>3243049A-0D6F-395C-E2FA-5251530084AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="invoice_date1" id="3152CEC7-CABD-2188-A467-F4335B3432A3">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:28:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[invoice date]]></commentInRDBMS>
+<generatorID>11F36279-615C-E47B-C20A-CA4C35CBAA0B</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>29BAD570-F226-3CE7-B422-55957C19EF09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="invoice_time1" id="3B5D0640-B842-2BE8-62B2-53D52DA4D3C7">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:28:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[invoice time]]></commentInRDBMS>
+<generatorID>11F36279-615C-E47B-C20A-CA4C35CBAA0B</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>93AB8AB7-33CE-80FE-C798-DA54A010C57C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="24051195-CAF6-B1CC-5FF1-7AE85FC10B26" name="SERVICE_REC PK">

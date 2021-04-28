@@ -42,7 +42,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="invoice_time_1" id="93AB8AB7-33CE-80FE-C798-DA54A010C57C">
+<Attribute name="invoice_time" id="93AB8AB7-33CE-80FE-C798-DA54A010C57C">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-27 23:07:38 UTC</createdTime>
 <commentInRDBMS><![CDATA[invoice time]]></commentInRDBMS>
@@ -80,9 +80,10 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="invoice_pay_method" id="4030174D-A039-3856-241E-6D724CE99E44">
 <createdBy>nadeem</createdBy>
@@ -97,6 +98,22 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="animal_id1" id="F530F233-E80B-D975-6705-2FBC69B6A1F9">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:32:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>6AA71D65-5C1F-D303-C2D7-469050C8ED62</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>FEF0DEBB-777D-3E88-35D8-E8269E9146D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

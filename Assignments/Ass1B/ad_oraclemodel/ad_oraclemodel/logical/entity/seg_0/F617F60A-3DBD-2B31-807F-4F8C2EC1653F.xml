@@ -70,7 +70,7 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="drug_qty_supplied" id="FB745044-15D4-EA56-581D-DEEEA98DACB3">
+<Attribute name="drug_rec_qty_supplied" id="FB745044-15D4-EA56-581D-DEEEA98DACB3">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-27 23:16:59 UTC</createdTime>
 <commentInRDBMS><![CDATA[drug quantity supplied]]></commentInRDBMS>
@@ -80,6 +80,69 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="animal_id1" id="AAFC585C-2473-E088-36F2-4B11B806FD1D">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:30:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>C9D5E771-4422-0CE7-8478-D0E8DE35F0CB</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>3243049A-0D6F-395C-E2FA-5251530084AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="invoice_date1" id="C8C7CE2B-39DD-757D-4FE3-16A2506A6762">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:30:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[invoice date]]></commentInRDBMS>
+<generatorID>C9D5E771-4422-0CE7-8478-D0E8DE35F0CB</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>29BAD570-F226-3CE7-B422-55957C19EF09</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="invoice_time1" id="573DF1A5-6564-3EF9-9845-11CCD640984F">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:30:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[invoice time]]></commentInRDBMS>
+<generatorID>C9D5E771-4422-0CE7-8478-D0E8DE35F0CB</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>93AB8AB7-33CE-80FE-C798-DA54A010C57C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drug_id1" id="1FEE7A47-96A0-5257-44FB-8474BF3A27C4">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 00:31:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[drug id]]></commentInRDBMS>
+<generatorID>2680FD59-58B3-AB1D-9E75-73DB60E2A59E</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>7C2011C2-F062-C346-E5F1-43B6FC5FCF71</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
