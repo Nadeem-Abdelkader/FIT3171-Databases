@@ -31,11 +31,11 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="invoice_date" id="FEA4E57A-53FF-F2E3-4196-EDEBFE01AEEC">
+<Attribute name="invoice_date" id="5B2E5700-E0FB-C724-B30C-9C11C8A6660B">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 00:56:52 UTC</createdTime>
+<createdTime>2021-04-28 01:05:38 UTC</createdTime>
 <commentInRDBMS><![CDATA[invoice date]]></commentInRDBMS>
-<generatorID>55059E05-824E-8BA9-997D-04B099F7CEB9</generatorID>
+<generatorID>CB46C3C4-70ED-54FC-C2AD-80BE177620DB</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -46,11 +46,11 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="invoice_time" id="E5543737-7A65-9473-838B-8F79ACB36F59">
+<Attribute name="invoice_time" id="CA4D3974-658D-801E-19B8-98D2FCD2633F">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 00:56:52 UTC</createdTime>
+<createdTime>2021-04-28 01:05:38 UTC</createdTime>
 <commentInRDBMS><![CDATA[invoice time]]></commentInRDBMS>
-<generatorID>55059E05-824E-8BA9-997D-04B099F7CEB9</generatorID>
+<generatorID>CB46C3C4-70ED-54FC-C2AD-80BE177620DB</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -60,22 +60,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="animal_id" id="7479CE33-BEA2-EF7A-905F-4D731A683CCD">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 00:59:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>538239E0-4899-4561-7FE5-A448AA10094F</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>FEF0DEBB-777D-3E88-35D8-E8269E9146D1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
