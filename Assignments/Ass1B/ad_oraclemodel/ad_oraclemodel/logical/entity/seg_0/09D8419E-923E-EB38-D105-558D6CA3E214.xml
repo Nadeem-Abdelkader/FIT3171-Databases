@@ -60,7 +60,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="animal_id" id="CE058B74-D5F5-20CE-8CD4-E56B246C68C6">
 <createdBy>nadeem</createdBy>
@@ -76,23 +76,34 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="service_req_id" id="30DB8DA8-B159-D8DD-1094-C2BC45743205">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 03:30:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="24051195-CAF6-B1CC-5FF1-7AE85FC10B26" name="SERVICE_REC PK">
+<identifier id="874B8480-3531-57F6-4C1A-2C0B58F64E81" name="SERVICE_REC PK">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:11:12 UTC</createdTime>
+<createdTime>2021-04-28 03:30:16 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9625E3A3-36A1-B02A-9C5F-9836E8A7F812</attributeRef>
-<attributeRef>1038C2DD-0368-8BA8-DB56-04C5B3A02D62</attributeRef>
-<attributeRef>CC5A5D0C-9EFD-DB5C-B058-573C49DB0FDC</attributeRef>
-<attributeRef>CE058B74-D5F5-20CE-8CD4-E56B246C68C6</attributeRef>
+<attributeRef>30DB8DA8-B159-D8DD-1094-C2BC45743205</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
