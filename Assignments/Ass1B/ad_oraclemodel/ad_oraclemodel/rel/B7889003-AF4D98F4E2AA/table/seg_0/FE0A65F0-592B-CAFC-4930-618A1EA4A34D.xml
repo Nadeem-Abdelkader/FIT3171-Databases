@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE0A65F0-592B-CAFC-4930-618A1EA4A34D" name="ANIMAL">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>70A05ED6-CF29-2D39-722B-4C25118C87EF</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="animal_id" id="41F0530F-D2B9-7C1D-70C9-3BFBFAF00A38">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="animal_gender" id="85C47B8D-85B7-8D5C-21EB-5C6EA1C72B0F">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal gender]]></commentInRDBMS>
+<generatorID>0ACBFB1D-39BE-CD97-94F0-3A9EEF8F6960</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<constraintName>chk_animal_gender</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Female"/>
+<valueDef value="M" description="Male"/>
+</listOfValues>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="animal_name" id="74668543-2B27-E40A-0651-F5ABAC217F36">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal name]]></commentInRDBMS>
+<generatorID>BF7C71AC-CFEE-EBBC-1E29-9221CB1B2785</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="animal_birthdate" id="85BFB133-71F1-361E-2576-D0799C6308C1">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal date of birth]]></commentInRDBMS>
+<generatorID>C76F06D6-795F-6963-561D-F1D0FC51C608</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="animal_deceased" id="573DA7A8-2D9D-964B-9938-1C694547B17D">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal deceased or not]]></commentInRDBMS>
+<generatorID>40E4CD7A-083E-0686-D869-1ED17FBF4BEF</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<constraintName>chk_animal_deceased</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="animal_type_id" id="A11B8595-2F13-19F4-A3C0-4B2ED4F0FDC5">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal type id]]></commentInRDBMS>
+<generatorID>2A2ED137-E226-32EE-001A-BD88758D5CC1</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4081A5F0-DE21-65FB-1118-4501AC85C774" referredColumn="0EAA8F0D-5F9D-994D-A1E0-2314DC022E4B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C5D33CB-B0B4-DDB3-A756-07747940183B" name="ANIMAL_PK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>41D3389C-54D7-717E-F821-7D97EEC22F1C</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41F0530F-D2B9-7C1D-70C9-3BFBFAF00A38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C857400F-BA29-95C4-6C7F-9DB9C0D38636" name="ANIMALTYPE_ANIMAL">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>C8345B83-3C88-5D68-6A69-930AFD0436A8</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A11B8595-2F13-19F4-A3C0-4B2ED4F0FDC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

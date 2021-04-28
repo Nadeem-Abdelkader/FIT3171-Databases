@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67DA7E4E-3FFD-83C0-77CC-E1A5373A2A9A" name="SERVICE_REC">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>09D8419E-923E-EB38-D105-558D6CA3E214</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="service_code" id="56046AB5-5AC5-24E4-1FD2-B0B4CD3CC287">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[service code]]></commentInRDBMS>
+<generatorID>9625E3A3-36A1-B02A-9C5F-9836E8A7F812</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAB07BEF-301E-83F4-8DEA-13ABAF0B6E1D" referredColumn="83605908-655C-984B-08E5-3FAB1EC0D5D6"/>
+</associations>
+</Column>
+<Column name="animal_id" id="FD81D978-75E4-4515-90DB-1B497F06E732">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>2BA72633-9C95-8543-5455-5867DB2AB798</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02033B50-C661-3F7C-0B77-B8D7E01FEF95" referredColumn="CB2347E7-7100-9E9F-9F2F-C9273784C9C5"/>
+</associations>
+</Column>
+<Column name="invoice_date" id="9A0F86AD-FC93-99AB-CD5B-59736D864B31">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[invoice date]]></commentInRDBMS>
+<generatorID>37B45724-2322-6CCA-96B1-4EEA6AC0615D</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02033B50-C661-3F7C-0B77-B8D7E01FEF95" referredColumn="0F512ADC-FA97-EA96-CE37-81D8E51DC9F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1688BA7A-879F-7E29-A7A6-7C8AA4E6CFE8" name="SERVICE_REC_PK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>A29C50FE-EE12-6C94-F860-2A3821EC50C5</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56046AB5-5AC5-24E4-1FD2-B0B4CD3CC287"/>
+<colUsage columnID="9A0F86AD-FC93-99AB-CD5B-59736D864B31"/>
+<colUsage columnID="FD81D978-75E4-4515-90DB-1B497F06E732"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A7A0BF0-A4BD-A3C5-324A-4A6CB3E9E0FD" name="INVOICE_SERVICEREC">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>D3659DC4-7D47-F7A1-9BF6-387127F1A167</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD81D978-75E4-4515-90DB-1B497F06E732"/>
+<colUsage columnID="9A0F86AD-FC93-99AB-CD5B-59736D864B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6650976B-2190-35AE-3694-C1163366662C" name="SERVICE_SERVICEREC">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>AF198AD5-050B-7051-01D3-D1E8874D220A</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56046AB5-5AC5-24E4-1FD2-B0B4CD3CC287"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

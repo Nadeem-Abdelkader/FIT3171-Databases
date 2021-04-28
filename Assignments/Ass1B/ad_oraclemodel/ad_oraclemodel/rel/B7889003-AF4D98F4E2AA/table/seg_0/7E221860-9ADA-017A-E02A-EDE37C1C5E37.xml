@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E221860-9ADA-017A-E02A-EDE37C1C5E37" name="INVOICE">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>A2B95F07-60D9-F156-3738-EC8AC434E044</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="invoice_date" id="0F512ADC-FA97-EA96-CE37-81D8E51DC9F5">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[invoice date]]></commentInRDBMS>
+<generatorID>29BAD570-F226-3CE7-B422-55957C19EF09</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="animal_id" id="CB2347E7-7100-9E9F-9F2F-C9273784C9C5">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>3DDA145C-17F4-74EB-8BCF-26919D6634D1</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BEFC5CE-A8C5-9908-C877-880009808552" referredColumn="41F0530F-D2B9-7C1D-70C9-3BFBFAF00A38"/>
+</associations>
+</Column>
+<Column name="invoice_total_due" id="4C526858-707D-A7CB-E1F2-A62EA2BD6C2D">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[invoice total due]]></commentInRDBMS>
+<generatorID>702625D9-A0DC-5518-DAA6-DC3370F06062</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="invoice_pay_method" id="58D6B528-3A6C-A7B9-F9A4-690623D9D711">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[invoice payment method]]></commentInRDBMS>
+<generatorID>4030174D-A039-3856-241E-6D724CE99E44</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_id" id="D03359F9-22AF-55A0-BEC6-C127811F4A6A">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet id]]></commentInRDBMS>
+<generatorID>1AB84B0B-EC8F-88BA-B505-72E4C618C6C1</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1595140F-8E27-4FC0-5B3B-4FA2C848819F" referredColumn="A8F716E8-0CDF-6FE1-41F4-377EEAA90A14"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3439E01-C32E-09E7-2F8C-D8AB761E7A7E" name="INVOICE_PK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>0339FBBA-76AD-D5F3-275B-D412F6FEECF4</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB2347E7-7100-9E9F-9F2F-C9273784C9C5"/>
+<colUsage columnID="0F512ADC-FA97-EA96-CE37-81D8E51DC9F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1018DCA-CCD3-FD49-85EE-4BB1C2B4AD8F" name="ANIMAL_INVOICE">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>132CAF2A-39EB-06FA-53AD-ED8DE7F65ABD</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB2347E7-7100-9E9F-9F2F-C9273784C9C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B710102F-4BF6-E62D-01E2-764DB60100F2" name="VET_INVOICE">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 06:58:00 UTC</createdTime>
+<generatorID>7E516E49-ABA7-1A2E-4292-F978DB2963E6</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D03359F9-22AF-55A0-BEC6-C127811F4A6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
