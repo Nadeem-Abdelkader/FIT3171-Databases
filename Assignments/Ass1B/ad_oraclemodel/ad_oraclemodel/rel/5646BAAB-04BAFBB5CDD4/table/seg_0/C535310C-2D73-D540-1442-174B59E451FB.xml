@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C535310C-2D73-D540-1442-174B59E451FB" name="VET">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<generatorID>7D270BA5-3CE6-D959-30D8-5C317583D9B8</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vet_id" id="C99BEFD2-215F-F17D-863C-66D6F1DA8431">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet id]]></commentInRDBMS>
+<generatorID>624AF373-8407-B94D-9956-9FAE7416F00D</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_given_name" id="E4BA5FC8-B084-4CA4-C9E5-D0F2D1A70469">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet given name]]></commentInRDBMS>
+<generatorID>1EFAE275-361C-7644-8A36-7B47F1CB4D68</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_family_name" id="4360B126-D602-50F2-0C2A-A74DAD3EF6DA">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet family name]]></commentInRDBMS>
+<generatorID>E8FC5E0E-A291-A927-2012-2933697AC038</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_phone_number" id="BA316E27-C1A1-2D42-19EB-FBA78BF32168">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet phone number]]></commentInRDBMS>
+<generatorID>7955959D-7334-F213-5823-EEF7CF1EB7AA</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vet_first_employ_date" id="841EE211-01F3-8311-DEA9-AE03118075EF">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet first employment date]]></commentInRDBMS>
+<generatorID>CDEC2D18-D8E9-440F-F54B-8B5EB1C957FA</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="specialisation_id" id="B2DA8D57-FF6C-C0DA-DBC1-EEA242DFE205">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[specialisation id]]></commentInRDBMS>
+<generatorID>5983A62D-A9EB-08AE-AF46-C47BADBFD130</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A32B315A-C9F4-5181-869B-456FB2E50F1A" referredColumn="36A20A77-68AD-64D4-74FC-4C6F157072BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFDC68AB-897C-C61B-EA5A-567774A2EFD5" name="VET_PK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<generatorID>AE070D35-B5C8-D5DC-0090-BBFBC160E804</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C99BEFD2-215F-F17D-863C-66D6F1DA8431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41302494-DD8E-85B5-BDAA-45008FEEE6AB" name="SPECIALISATION_VET">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<generatorID>EF76F857-D52E-86CD-566C-FF5250B02F8B</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2DA8D57-FF6C-C0DA-DBC1-EEA242DFE205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

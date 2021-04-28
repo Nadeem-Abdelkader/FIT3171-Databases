@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A156763E-DB5C-2C90-666D-DFFE28050D11" name="VISIT">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<generatorID>2B4C3876-0A42-176C-3591-0ADFBEEA4DF6</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="visit_date" id="32275D0C-FBE8-E375-05C5-344A13BE8569">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit date]]></commentInRDBMS>
+<generatorID>011036E6-A98E-F68E-AF49-E46674524B1A</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="visit_time" id="5DE0792E-445B-8E75-EB2B-3D9EF572FD7B">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit time]]></commentInRDBMS>
+<generatorID>54FA11C8-4EC4-C67C-2973-6FB50D9B357C</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="visit_length" id="1E2D34D3-5F35-FF62-13CB-3D72F82B17C2">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit length]]></commentInRDBMS>
+<generatorID>EAF7C2A7-4C83-EAEB-F8CA-37FB987039BC</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="visit_notes" id="4F94C030-302A-F0D9-34F6-CA242869B9BB">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit notes]]></commentInRDBMS>
+<generatorID>8367ED99-8109-1EEE-E1AF-BF5B96D8719C</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clinic_id" id="6A29E4EB-46A1-7E90-4730-D560B3E7576B">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[clinic id]]></commentInRDBMS>
+<generatorID>32AAAA58-C5DC-5B4F-490B-6688DC90BD5C</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8838D0C3-CD2B-B7FA-A974-DCD7E62F4220" referredColumn="DE93F4B7-BA17-07EF-7615-8468ABFCAD6D"/>
+</associations>
+</Column>
+<Column name="vet_id" id="A0C56C25-16CF-18CD-0E47-A0899628CACD">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[vet id]]></commentInRDBMS>
+<generatorID>C87EBFBB-34F3-FED3-162C-8CACCDF85496</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F07A3897-C96B-1096-ACF7-6BAD19C0357D" referredColumn="C99BEFD2-215F-F17D-863C-66D6F1DA8431"/>
+</associations>
+</Column>
+<Column name="visit_prev_visit_id" id="E693903B-A5CC-E68C-D0C9-AB2B0C868F52">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[previous visit id, if any]]></commentInRDBMS>
+<generatorID>22E5E599-DF0F-8AAF-EF9C-C1EAFF811F59</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="animal_id" id="925835E7-CB65-053C-41D6-117278EB8B55">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>88A7A08A-C265-FDE1-4D6E-FBA5604312A0</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AD8CED9-CD71-7AE8-9B82-CCEB77AECA2E" referredColumn="60607031-CAFD-FC96-3561-FACDE3C3E985"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="084C5478-A07E-8B6B-8681-703C7D1A5A23" name="VISIT_PK">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<generatorID>D17CBB5B-540B-9101-DCE5-E040626B5AAC</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32275D0C-FBE8-E375-05C5-344A13BE8569"/>
+<colUsage columnID="5DE0792E-445B-8E75-EB2B-3D9EF572FD7B"/>
+<colUsage columnID="925835E7-CB65-053C-41D6-117278EB8B55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A7B28DD-94CD-3636-6459-0AB6FAD5719D" name="ANIMAL_VISIT">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<generatorID>4C115DC2-CA97-992C-BB76-FF1F7500CA0B</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="925835E7-CB65-053C-41D6-117278EB8B55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E60EA994-0DFD-1488-804C-DE3D21FBA881" name="CLINIC_VISIT">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<generatorID>EAB139F9-A531-1D9F-1370-05A24C435E2E</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A29E4EB-46A1-7E90-4730-D560B3E7576B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49EA0732-169C-D4CC-3A67-5EE4F6B4436B" name="VET_VISIT">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 04:06:05 UTC</createdTime>
+<generatorID>18A342BE-106D-0DCD-A31D-65B11345B4A6</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0C56C25-16CF-18CD-0E47-A0899628CACD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
