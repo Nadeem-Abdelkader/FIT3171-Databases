@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANIMAL_OWNERSHIPREC" directorySegmentName="seg_0" id="BB609FE8-D7B6-FBAB-4393-E15AED6D6F81">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANIMAL_OWNERSHIPREC" directorySegmentName="seg_0" id="12114F59-4A9B-DE12-AFD4-60EA18400D52">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:12:56 UTC</createdTime>
+<createdTime>2021-04-28 02:49:35 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<sourcePk>CBB1211B-F424-8B86-0BB8-CC52608D0CD3</sourcePk>
+<sourcePk>41D3389C-54D7-717E-F821-7D97EEC22F1C</sourcePk>
 <targetPk>2CA50B25-458B-C007-742C-2C5F0D7EFC0F</targetPk>
 <identifying>false</identifying>
 <nameOnSource>appears in</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>9E475694-F285-88B7-1A44-A78B58CC0CC7</sourceEntity>
+<sourceEntity>70A05ED6-CF29-2D39-722B-4C25118C87EF</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>93D2F476-450A-85A2-7EBB-15FEF4D66D2A</targetEntity>
 <transferable>true</transferable>

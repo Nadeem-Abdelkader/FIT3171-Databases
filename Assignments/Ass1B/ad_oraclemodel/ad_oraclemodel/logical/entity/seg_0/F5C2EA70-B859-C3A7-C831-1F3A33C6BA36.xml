@@ -88,16 +88,32 @@
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_id" id="D60544DE-974B-5512-073B-3B0CA6C38251">
+<Attribute name="animal_id" id="48F02AD2-D91F-DCB1-BA50-79B55DD0604B">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:11:51 UTC</createdTime>
+<createdTime>2021-04-28 02:43:54 UTC</createdTime>
 <commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>18FAD123-D2ED-1859-714A-72402E8AA011</generatorID>
+<generatorID>621CD42A-2718-82D0-B98A-074398B079BD</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<referedAttribute>8135D6E4-C526-6800-4A1C-3A2F720C309A</referedAttribute>
+<referedAttribute>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="animal_id1" id="0DA267A0-0BCB-D0C6-B59F-0ADB0913D4ED">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 02:47:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
+<generatorID>5922B55F-6B96-A792-5FCC-7FDC6982EF3D</generatorID>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<referedAttribute>88A7A08A-C265-FDE1-4D6E-FBA5604312A0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -117,6 +133,9 @@
 <usedAttributes>
 <attributeRef>939AEB8A-F914-105A-1D48-062F61C233FA</attributeRef>
 <attributeRef>3D67A9A3-B722-0A81-ABA3-D002789724FC</attributeRef>
+<attributeRef>9113F8DE-2493-5E4E-F582-F294D1C2935A</attributeRef>
+<attributeRef>EDDB81D8-1174-DEB1-5113-4251A7A2DCF2</attributeRef>
+<attributeRef>48F02AD2-D91F-DCB1-BA50-79B55DD0604B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

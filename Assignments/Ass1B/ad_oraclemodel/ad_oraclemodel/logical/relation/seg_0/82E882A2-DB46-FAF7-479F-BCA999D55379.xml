@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANIMAL_INVOICE" directorySegmentName="seg_0" id="23A7F228-A0C6-F310-F4DB-70A82CDFD75C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INVOICE_DRUGREC" directorySegmentName="seg_0" id="82E882A2-DB46-FAF7-479F-BCA999D55379">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 00:54:49 UTC</createdTime>
+<createdTime>2021-04-28 02:32:32 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<sourcePk>CBB1211B-F424-8B86-0BB8-CC52608D0CD3</sourcePk>
+<sourcePk>0B94FC06-8598-BCB8-D4F2-8DB216081FFF</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
+<nameOnSource>appears in</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>9E475694-F285-88B7-1A44-A78B58CC0CC7</sourceEntity>
+<sourceEntity>A2B95F07-60D9-F156-3738-EC8AC434E044</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>A2B95F07-60D9-F156-3738-EC8AC434E044</targetEntity>
+<targetEntity>F617F60A-3DBD-2B31-807F-4F8C2EC1653F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

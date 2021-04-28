@@ -85,16 +85,16 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_id" id="7C249099-0D55-E06C-83C1-F8FB832EEEA0">
+<Attribute name="animal_id" id="3DDA145C-17F4-74EB-8BCF-26919D6634D1">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:11:51 UTC</createdTime>
+<createdTime>2021-04-28 02:43:01 UTC</createdTime>
 <commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>23A7F228-A0C6-F310-F4DB-70A82CDFD75C</generatorID>
+<generatorID>132CAF2A-39EB-06FA-53AD-ED8DE7F65ABD</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<referedAttribute>8135D6E4-C526-6800-4A1C-3A2F720C309A</referedAttribute>
+<referedAttribute>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -114,6 +114,7 @@
 <usedAttributes>
 <attributeRef>29BAD570-F226-3CE7-B422-55957C19EF09</attributeRef>
 <attributeRef>93AB8AB7-33CE-80FE-C798-DA54A010C57C</attributeRef>
+<attributeRef>3DDA145C-17F4-74EB-8BCF-26919D6634D1</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

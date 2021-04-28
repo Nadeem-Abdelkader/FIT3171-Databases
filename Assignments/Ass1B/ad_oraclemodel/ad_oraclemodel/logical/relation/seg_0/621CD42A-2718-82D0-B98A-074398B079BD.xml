@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANIMAL_PRESCRIPTION" directorySegmentName="seg_0" id="18FAD123-D2ED-1859-714A-72402E8AA011">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANIMAL_PRESCRIPTION" directorySegmentName="seg_0" id="621CD42A-2718-82D0-B98A-074398B079BD">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 01:20:52 UTC</createdTime>
+<createdTime>2021-04-28 02:43:54 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<sourcePk>CBB1211B-F424-8B86-0BB8-CC52608D0CD3</sourcePk>
+<sourcePk>41D3389C-54D7-717E-F821-7D97EEC22F1C</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>has</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>9E475694-F285-88B7-1A44-A78B58CC0CC7</sourceEntity>
+<sourceEntity>70A05ED6-CF29-2D39-722B-4C25118C87EF</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>F5C2EA70-B859-C3A7-C831-1F3A33C6BA36</targetEntity>
 <transferable>true</transferable>

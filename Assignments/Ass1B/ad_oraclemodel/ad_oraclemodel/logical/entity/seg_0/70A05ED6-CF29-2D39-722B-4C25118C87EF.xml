@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E475694-F285-88B7-1A44-A78B58CC0CC7" name="ANIMAL">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70A05ED6-CF29-2D39-722B-4C25118C87EF" name="ANIMAL">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 22:41:43 UTC</createdTime>
+<createdTime>2021-04-28 02:37:34 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="animal_id" id="8135D6E4-C526-6800-4A1C-3A2F720C309A">
+<Attribute name="animal_id" id="DE3525EE-733A-9F94-E9E1-3E69B52BB12E">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:11:37 UTC</createdTime>
+<createdTime>2021-04-28 02:37:50 UTC</createdTime>
 <commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
@@ -29,9 +29,28 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_name" id="0884400E-FB8A-0402-8FEF-5F88FF7BB85F">
+<Attribute name="animal_gender" id="0ACBFB1D-39BE-CD97-94F0-3A9EEF8F6960">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 22:41:58 UTC</createdTime>
+<createdTime>2021-04-28 02:37:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal gender]]></commentInRDBMS>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<constraintName>chk_animal_gender</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Female"/>
+<valueDef value="M" description="Male"/>
+</listOfValues>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="animal_name" id="BF7C71AC-CFEE-EBBC-1E29-9221CB1B2785">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 02:37:51 UTC</createdTime>
 <commentInRDBMS><![CDATA[animal name]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
@@ -43,9 +62,9 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_birthdate" id="44A19D22-2B10-6A0F-30C1-8DAF50146E90">
+<Attribute name="animal_birthdate" id="C76F06D6-795F-6963-561D-F1D0FC51C608">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 22:41:59 UTC</createdTime>
+<createdTime>2021-04-28 02:37:52 UTC</createdTime>
 <commentInRDBMS><![CDATA[animal date of birth]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
@@ -56,34 +75,15 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_gender" id="CE97216A-BEE2-A749-C540-59C3608CD0F8">
+<Attribute name="animal_deceased" id="40E4CD7A-083E-0686-D869-1ED17FBF4BEF">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:04:24 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal gender]]></commentInRDBMS>
+<createdTime>2021-04-28 02:37:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[animal deceased or not]]></commentInRDBMS>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
-<constraintName>chk_animalgender</constraintName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>6</dataTypeSize>
-<listOfValues>
-<valueDef value="F" description="Female"/>
-<valueDef value="M" description="Male"/>
-</listOfValues>
-<ownDataTypeParameters>6,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="animal_deceased" id="298D8C60-A0FA-1EAB-15D5-4DB9B1F64F27">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:06:36 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal status (deceased or not)]]></commentInRDBMS>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<constraintName>chk_animaldeceased</constraintName>
+<constraintName>chk_animal_deceased</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -94,11 +94,11 @@
 </listOfValues>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_type_id" id="794392EA-1FFD-4618-3879-0CD9868DA884">
+<Attribute name="animal_type_id" id="2A2ED137-E226-32EE-001A-BD88758D5CC1">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 02:06:27 UTC</createdTime>
+<createdTime>2021-04-28 02:41:02 UTC</createdTime>
 <commentInRDBMS><![CDATA[animal type id]]></commentInRDBMS>
-<generatorID>6408FEB9-31F2-8156-57A4-5DA26452888D</generatorID>
+<generatorID>C8345B83-3C88-5D68-6A69-930AFD0436A8</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -112,16 +112,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CBB1211B-F424-8B86-0BB8-CC52608D0CD3" name="ANIMAL PK">
+<identifier id="41D3389C-54D7-717E-F821-7D97EEC22F1C" name="ANIMAL PK">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 22:42:09 UTC</createdTime>
+<createdTime>2021-04-28 02:38:06 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8135D6E4-C526-6800-4A1C-3A2F720C309A</attributeRef>
+<attributeRef>DE3525EE-733A-9F94-E9E1-3E69B52BB12E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
