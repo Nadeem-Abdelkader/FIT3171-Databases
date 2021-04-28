@@ -57,5 +57,17 @@
 <attributeRef>4EA56594-A2DF-B382-4C35-382D21716F0A</attributeRef>
 </usedAttributes>
 </identifier>
+<identifier id="3631DD79-72BA-AB0F-D5C0-0FE33384A58F" name="UN_ANIMAL_TYPE_NAME">
+<createdBy>nadeem</createdBy>
+<createdTime>2021-04-28 03:58:09 UTC</createdTime>
+<ownerDesignName>ad_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+</engineerTo>
+<newElementsIDs>8F6C1C59-1F91-0FE7-38F6-E133CA439C0B</newElementsIDs>
+<usedAttributes>
+<attributeRef>8F6C1C59-1F91-0FE7-38F6-E133CA439C0B</attributeRef>
+</usedAttributes>
+</identifier>
 </identifiers>
 </Entity>
