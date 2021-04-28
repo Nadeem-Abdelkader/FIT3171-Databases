@@ -119,9 +119,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="46AFB2C2-6436-B71F-D823-47CB0512518C" name="INVOICE PK">
+<identifier id="D24F52D8-1282-CB46-D326-CFBA1394B264" name="INVOICE PKv1">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:47:05 UTC</createdTime>
+<createdTime>2021-04-28 05:47:29 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -131,22 +131,9 @@
 <attributeRef>43AAC8BB-BDCE-0775-F551-5151A1603920</attributeRef>
 </usedAttributes>
 </identifier>
-<identifier id="6EF3A464-ACEA-08B9-51B0-9B8D24B50F36" name="INVOICE NK">
+<identifier id="DF1D4530-9B62-6168-F447-929A270A437A" name="INVOICE NK">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:47:21 UTC</createdTime>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<newElementsIDs>7E516E49-ABA7-1A2E-4292-F978DB2963E6,132CAF2A-39EB-06FA-53AD-ED8DE7F65ABD</newElementsIDs>
-<usedAttributes>
-<attributeRef>1AB84B0B-EC8F-88BA-B505-72E4C618C6C1</attributeRef>
-<attributeRef>3DDA145C-17F4-74EB-8BCF-26919D6634D1</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="D3BA44FF-85B8-F382-B359-2EF0ECB9C7DE" name="INOICE NK">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 04:03:13 UTC</createdTime>
+<createdTime>2021-04-28 05:47:44 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>

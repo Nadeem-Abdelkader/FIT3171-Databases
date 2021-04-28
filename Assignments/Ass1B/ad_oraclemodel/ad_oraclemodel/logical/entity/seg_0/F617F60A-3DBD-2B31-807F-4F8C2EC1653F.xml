@@ -45,30 +45,15 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="invoice_id" id="9107F569-1183-2E2E-3BF7-375E567E0CB9">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 03:47:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[surrogate key]]></commentInRDBMS>
-<generatorID>82E882A2-DB46-FAF7-479F-BCA999D55379</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>43AAC8BB-BDCE-0775-F551-5151A1603920</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9F520D0C-BA6D-FBCD-AD01-9FD85D667A41" name="DRUG_REC PK">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-28 03:34:25 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="false"/>
 </engineerTo>
 <usedAttributes>
 <attributeRef>AD31418F-6701-4060-3DD8-8FDDA5807753</attributeRef>
@@ -78,13 +63,13 @@
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-28 03:34:25 UTC</createdTime>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
+<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>AD31418F-6701-4060-3DD8-8FDDA5807753</attributeRef>
-<attributeRef>9107F569-1183-2E2E-3BF7-375E567E0CB9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
