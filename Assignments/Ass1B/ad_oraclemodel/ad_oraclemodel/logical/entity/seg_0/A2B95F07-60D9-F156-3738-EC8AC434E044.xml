@@ -15,20 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="animal_id" id="3243049A-0D6F-395C-E2FA-5251530084AC">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-27 23:07:37 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="invoice_date" id="29BAD570-F226-3CE7-B422-55957C19EF09">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-27 23:07:37 UTC</createdTime>
@@ -99,11 +85,11 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_id1" id="F530F233-E80B-D975-6705-2FBC69B6A1F9">
+<Attribute name="animal_id" id="80727F2B-2CA9-B102-A7BD-D68A890D11F7">
 <createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 00:32:57 UTC</createdTime>
+<createdTime>2021-04-28 00:54:49 UTC</createdTime>
 <commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>6AA71D65-5C1F-D303-C2D7-469050C8ED62</generatorID>
+<generatorID>23A7F228-A0C6-F310-F4DB-70A82CDFD75C</generatorID>
 <ownerDesignName>ad_oraclemodel</ownerDesignName>
 <engineerTo>
 <item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
@@ -126,7 +112,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3243049A-0D6F-395C-E2FA-5251530084AC</attributeRef>
 <attributeRef>29BAD570-F226-3CE7-B422-55957C19EF09</attributeRef>
 <attributeRef>93AB8AB7-33CE-80FE-C798-DA54A010C57C</attributeRef>
 </usedAttributes>

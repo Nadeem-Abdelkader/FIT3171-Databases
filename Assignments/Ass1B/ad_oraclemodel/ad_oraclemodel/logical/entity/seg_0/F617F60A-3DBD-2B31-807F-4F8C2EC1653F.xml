@@ -82,22 +82,6 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="animal_id1" id="AAFC585C-2473-E088-36F2-4B11B806FD1D">
-<createdBy>nadeem</createdBy>
-<createdTime>2021-04-28 00:30:46 UTC</createdTime>
-<commentInRDBMS><![CDATA[animal id]]></commentInRDBMS>
-<generatorID>C9D5E771-4422-0CE7-8478-D0E8DE35F0CB</generatorID>
-<ownerDesignName>ad_oraclemodel</ownerDesignName>
-<engineerTo>
-<item key="5646BAAB-4ABE-4E20-62C4-04BAFBB5CDD4" value="true"/>
-</engineerTo>
-<referedAttribute>3243049A-0D6F-395C-E2FA-5251530084AC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="invoice_date1" id="C8C7CE2B-39DD-757D-4FE3-16A2506A6762">
 <createdBy>nadeem</createdBy>
 <createdTime>2021-04-28 00:30:46 UTC</createdTime>
