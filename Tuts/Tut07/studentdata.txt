@@ -1,0 +1,35 @@
+STUDENT
+
+stu_nbr     stu_lname   stu_fname   stu_dob
+11111111    Bloggs      Fred        1-Jan-1990
+11111112    Nice        Nick        10-Oct-1994
+11111113    Wheat       Wendy       5-May-1990
+11111114    Sheen       Cindy       25-Dec-1996
+
+UNIT
+
+unit_code   unit_name
+FIT9999     FIT Last Unit
+FIT5132     Introduction to Databases
+FIT5016     Project
+FIT5111     Student's Life
+
+ENROLMENT
+
+stu_nbr     unit_code   enrol_year  enrol_semester  enrol_mark  enrol_grade
+11111111    FIT5132     2013        1               35          N
+11111111    FIT5016     2013        1               61          C
+11111111    FIT5132     2013        2               42          N
+11111111    FIT5111     2013        2               76          D
+11111111    FIT5132     2014        2                           
+11111112    FIT5132     2013        2               83          HD
+11111112    FIT5111     2013        2               79          D
+11111113    FIT5132     2014        2       
+11111113    FIT5111     2014        2       
+11111114    FIT5111     2014        2       
+
+
+
+
+
+
