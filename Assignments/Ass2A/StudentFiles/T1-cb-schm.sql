@@ -126,6 +126,8 @@ ALTER TABLE animal ADD CONSTRAINT animal_species_fk FOREIGN KEY ( spec_genus ) R
 
 ALTER TABLE animal ADD CONSTRAINT animal_species_fk FOREIGN KEY ( spec_name ) REFERENCES species ( spec_name );
 
+ALTER TABLE animal ADD CONSTRAINT ck_animal_sex CHECK ( animal_sex IN ('M','F') );
+
 COMMENT ON COLUMN animal.animal_id IS
     'The identifier for the animal';
     
