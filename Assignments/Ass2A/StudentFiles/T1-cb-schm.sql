@@ -1,9 +1,9 @@
 --****PLEASE ENTER YOUR DETAILS BELOW****
 --T1-cb-schm.sql
 
---Student ID:
---Student Name:
---Tutorial No:
+--Student ID: 30146224
+--Student Name: Nadeem Emadeldin Hamed Hamed Abdelkader
+--Tutorial No: 02
 
 /* Comments for your marker:
 
@@ -18,6 +18,7 @@ file, create an SQL schema file which can be used to create this database in
 Oracle.
 */
 --PLEASE PLACE REQUIRED SQL STATEMENT(S) BELOW
+
 
 
 
