@@ -18,9 +18,9 @@ file, create an SQL schema file which can be used to create this database in
 Oracle.
 */
 --PLEASE PLACE REQUIRED SQL STATEMENT(S) BELOW
-DROP TABLE animal PURGE;
+DROP TABLE animal CASCADE CONSTRAINTS;
 
-DROP TABLE breeding_event PURGE;
+DROP TABLE breeding_event CASCADE CONSTRAINTS;
 
 DROP TABLE centre PURGE;
 
@@ -89,9 +89,9 @@ CREATE TABLE breeding_event (
 
 ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_pk PRIMARY KEY ( brevent_id );
 
-ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_mother_fk FOREIGN KEY ( mother_id ) REFERENCES animals ( animal_id );
+/*ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_mother_fk FOREIGN KEY ( mother_id ) REFERENCES animal ( animal_id );
 
-ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_father_fk FOREIGN KEY ( father_id ) REFERENCES animals ( animal_id );
+ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_father_fk FOREIGN KEY ( father_id ) REFERENCES animal ( animal_id );*/
 
 COMMENT ON COLUMN breeding_event.brevent_id IS
     'The identifier for the breeding event';
@@ -125,20 +125,24 @@ ALTER TABLE animal ADD CONSTRAINT animal_species_fk FOREIGN KEY ( spec_genus,spe
 
 ALTER TABLE animal ADD CONSTRAINT ck_animal_sex CHECK ( animal_sex IN ('M','F') );
 
-COMMENT ON COLUMN animals.animal_id IS
+COMMENT ON COLUMN animal.animal_id IS
     'The identifier for the animal';
     
-COMMENT ON COLUMN animals.animal_sex IS
+COMMENT ON COLUMN animal.animal_sex IS
     'The animal sex (M or F)';
     
-COMMENT ON COLUMN animals.brevent_id IS
+COMMENT ON COLUMN animal.brevent_id IS
     'If bred in captivity (i.e. at a centre), the id of the breeding event which produced the animal. Animals which have been captured from the wild will have no brevent_id assigned';
     
-COMMENT ON COLUMN animals.centre_id IS
+COMMENT ON COLUMN animal.centre_id IS
     'The "home" center where the animal is normally located. Animals are sometimes located at other centres for a breeding event';
     
-COMMENT ON COLUMN animals.spec_genus IS
+COMMENT ON COLUMN animal.spec_genus IS
     'The species genus for the animal';
     
-COMMENT ON COLUMN animals.spec_name IS
+COMMENT ON COLUMN animal.spec_name IS
     'The species name for the animal';
+
+ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_mother_fk FOREIGN KEY ( mother_id ) REFERENCES animal ( animal_id );
+
+ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_father_fk FOREIGN KEY ( father_id ) REFERENCES animal ( animal_id );
