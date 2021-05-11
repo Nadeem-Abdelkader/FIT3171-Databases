@@ -24,9 +24,8 @@ insert as a minimum, the following sample data -
 Your inserted rows must meet the assignment specification requirements
 */
 --PLEASE PLACE REQUIRED SQL STATEMENT(S) BELOW
-
-DELETE FROM breeding_event;
 DELETE FROM animal;
+DELETE FROM breeding_event;
 DELETE FROM centre;
 DELETE FROM species;
 
