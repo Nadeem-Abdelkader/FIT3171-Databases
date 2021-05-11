@@ -24,10 +24,11 @@ insert as a minimum, the following sample data -
 Your inserted rows must meet the assignment specification requirements
 */
 --PLEASE PLACE REQUIRED SQL STATEMENT(S) BELOW
+/*
 DELETE FROM animal;
 DELETE FROM breeding_event;
 DELETE FROM centre;
-DELETE FROM species;
+DELETE FROM species;*/
 
 -- INSERTING into SPECIES
 Insert into SPECIES (SPEC_GENUS,SPEC_NAME,SPEC_POPULAR_NAME,SPEC_FAMILY,SPEC_NATURAL_RANGE) values ('Myrmecobius','fasciatus','Numbat','MYRMECOBIIDAE','Occurs naturally in Dryandra and Perup in south-western Western Australia');
@@ -75,9 +76,5 @@ Insert into BREEDING_EVENT (BREVENT_ID,BREVENT_DATE,MOTHER_ID,FATHER_ID) values 
 
 Insert into ANIMAL (ANIMAL_ID,ANIMAL_SEX,BREVENT_ID,CENTRE_ID,SPEC_GENUS,SPEC_NAME) values ('21','M','04','AUS30','Sarcophilus','harrisii');
 Insert into ANIMAL (ANIMAL_ID,ANIMAL_SEX,BREVENT_ID,CENTRE_ID,SPEC_GENUS,SPEC_NAME) values ('22','F','04','AUS30','Sarcophilus','harrisii');
-
-
-
-
 
 COMMIT;
