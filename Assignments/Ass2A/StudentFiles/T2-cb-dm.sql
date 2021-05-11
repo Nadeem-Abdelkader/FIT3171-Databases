@@ -63,7 +63,7 @@ INSERT INTO animal VALUES (
 
 INSERT INTO breeding_event VALUES (
     breeding_event_seq.NEXTVAL,
-    '10-Feb-2021',
+    TO_DATE('2021-02-10', 'YYYY-MM-DD'),
     (SELECT animal_id from animal WHERE centre_id  = (SELECT centre_id FROM centre WHERE centre_name = 'Australia Zoo') AND spec_genus = (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil')),
     (SELECT animal_id from animal WHERE centre_id  = (SELECT centre_id FROM centre WHERE centre_name = 'Werribee Open Range Zoo') AND spec_genus = (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil'))
 );
