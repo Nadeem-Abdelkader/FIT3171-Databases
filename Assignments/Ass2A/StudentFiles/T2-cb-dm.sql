@@ -33,17 +33,63 @@ CREATE SEQUENCE breeding_event_seq START WITH 500 INCREMENT BY 1;
 -- (ii)
 
 
-update animal set centre_id = (select centre_id from centre where centre_name = 'Kruger National Park' ) where centre_id = (select centre_id from centre where centre_name = 'SanWild Wildlife Sanctuary');
-commit;
+UPDATE animal SET centre_id = (SELECT centre_id FROM centre WHERE centre_name = 'Kruger National Park' ) WHERE centre_id = (SELECT centre_id FROM centre WHERE centre_name = 'SanWild Wildlife Sanctuary');
 
-delete from centre where centre_id = (select centre_id from centre where centre_name = 'SanWild Wildlife Sanctuary');
-commit;
+DELETE FROM centre WHERE centre_id = (SELECT centre_id FROM centre WHERE centre_name = 'SanWild Wildlife Sanctuary');
+
 -- (iii)
+
+INSERT INTO animal VALUES (
+    animal_seq.NEXTVAL,
+    'F',
+    NULL,
+    (SELECT centre_id FROM centre WHERE centre_name = 'Australia Zoo'),
+    (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil'),
+    (SELECT spec_name FROM species WHERE spec_popular_name = 'Tasmanian Devil')
+);
+
+INSERT INTO animal VALUES (
+    animal_seq.NEXTVAL,
+    'M',
+    NULL,
+    (SELECT centre_id FROM centre WHERE centre_name = 'Werribee Open Range Zoo'),
+    (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil'),
+    (SELECT spec_name FROM species WHERE spec_popular_name = 'Tasmanian Devil')
+);
 
 
 
 
 -- (iv)
+
+INSERT INTO breeding_event VALUES (
+    breeding_event_seq.NEXTVAL,
+    '10-Feb-2021',
+    (SELECT animal_id from animal WHERE centre_id  = (SELECT centre_id FROM centre WHERE centre_name = 'Australia Zoo') AND spec_genus = (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil')),
+    (SELECT animal_id from animal WHERE centre_id  = (SELECT centre_id FROM centre WHERE centre_name = 'Werribee Open Range Zoo') AND spec_genus = (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil'))
+);
+
+INSERT INTO animal VALUES (
+    animal_seq.NEXTVAL,
+    'F',
+    breeding_event_seq.CURRVAL,
+    (SELECT centre_id FROM centre WHERE centre_name = 'Australia Zoo'),
+    (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil'),
+    (SELECT spec_name FROM species WHERE spec_popular_name = 'Tasmanian Devil')
+);
+
+INSERT INTO animal VALUES (
+    animal_seq.NEXTVAL,
+    'M',
+    breeding_event_seq.CURRVAL,
+    (SELECT centre_id FROM centre WHERE centre_name = 'Australia Zoo'),
+    (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil'),
+    (SELECT spec_name FROM species WHERE spec_popular_name = 'Tasmanian Devil')
+);
+
+
+
+COMMIT;
 
 
 
