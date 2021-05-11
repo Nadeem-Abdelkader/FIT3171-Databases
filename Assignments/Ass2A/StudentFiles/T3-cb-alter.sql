@@ -31,13 +31,14 @@ COMMENT ON COLUMN centre.centre_num_of_offspring_born IS
 -- (b)
 /*
 ******* Explain here your selected approach and its advantage/s *********
-I chose to add a new column "animal_deceased" in the animal table, which will either be 'Y' if the animal died or 'N' if the animal is alive.
-The default value is 'N' because all animals are alive to begin with.
+I chose to add a new column "animal_deceased" in the animal table, which will either be set to 'Y' if the animal died or set to 'N' if the animal is alive.
+The default value is set to 'N' because all animals are alive to begin with.
 This column can be checked for any animal when necessary using the animals id (because its the primary key).
 For example, if we want to include animals in a breeding event, we have to first make sure they are both alive (animal_deceased column = 'N').
 Here i assumed that animal with the id 15 has died, so i changed his deceased column to 'Y' instead of 'N'
 This approached is benficial because it includes the indicator for the animal status within the animal table.
 This makes it easier to obtain the animals status (using its id) anytime its required.
+It also makes it easier to change the animal status if he died (set animal_deceased to 'Y')
 */
 
 ALTER TABLE animal ADD (animal_deceased CHAR(1) DEFAULT 'N');
