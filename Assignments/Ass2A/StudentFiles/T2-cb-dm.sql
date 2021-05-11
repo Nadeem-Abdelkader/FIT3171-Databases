@@ -33,8 +33,11 @@ CREATE SEQUENCE breeding_event_seq START WITH 500 INCREMENT BY 1;
 -- (ii)
 
 
+update animal set centre_id = (select centre_id from centre where centre_name = 'Kruger National Park' ) where centre_id = (select centre_id from centre where centre_name = 'SanWild Wildlife Sanctuary');
+commit;
 
-
+delete from centre where centre_id = (select centre_id from centre where centre_name = 'SanWild Wildlife Sanctuary');
+commit;
 -- (iii)
 
 
