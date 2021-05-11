@@ -89,10 +89,6 @@ CREATE TABLE breeding_event (
 
 ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_pk PRIMARY KEY ( brevent_id );
 
-/*ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_mother_fk FOREIGN KEY ( mother_id ) REFERENCES animal ( animal_id );
-
-ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_father_fk FOREIGN KEY ( father_id ) REFERENCES animal ( animal_id );*/
-
 COMMENT ON COLUMN breeding_event.brevent_id IS
     'The identifier for the breeding event';
     
@@ -117,12 +113,6 @@ CREATE TABLE animal (
 
 ALTER TABLE animal ADD CONSTRAINT animal_pk PRIMARY KEY ( animal_id );
 
-ALTER TABLE animal ADD CONSTRAINT animal_breeding_fk FOREIGN KEY ( brevent_id ) REFERENCES breeding_event ( brevent_id );
-
-ALTER TABLE animal ADD CONSTRAINT animal_centre_fk FOREIGN KEY ( centre_id ) REFERENCES centre ( centre_id );
-
-ALTER TABLE animal ADD CONSTRAINT animal_species_fk FOREIGN KEY ( spec_genus,spec_name ) REFERENCES species ( spec_genus,spec_name );
-
 ALTER TABLE animal ADD CONSTRAINT ck_animal_sex CHECK ( animal_sex IN ('M','F') );
 
 COMMENT ON COLUMN animal.animal_id IS
@@ -142,7 +132,13 @@ COMMENT ON COLUMN animal.spec_genus IS
     
 COMMENT ON COLUMN animal.spec_name IS
     'The species name for the animal';
-    
+
+ALTER TABLE animal ADD CONSTRAINT animal_breeding_fk FOREIGN KEY ( brevent_id ) REFERENCES breeding_event ( brevent_id );
+
+ALTER TABLE animal ADD CONSTRAINT animal_centre_fk FOREIGN KEY ( centre_id ) REFERENCES centre ( centre_id );
+
+ALTER TABLE animal ADD CONSTRAINT animal_species_fk FOREIGN KEY ( spec_genus,spec_name ) REFERENCES species ( spec_genus,spec_name );
+
 ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_mother_fk FOREIGN KEY ( mother_id ) REFERENCES animal ( animal_id );
 
 ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_father_fk FOREIGN KEY ( father_id ) REFERENCES animal ( animal_id );
