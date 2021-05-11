@@ -53,4 +53,12 @@ ALTER TABLE centre ADD CONSTRAINT ck_centre_type CHECK ( centre_type IN ('Zoo','
 
 COMMENT ON COLUMN centre.centre_type IS 'The type of the centre';
 
+UPDATE centre SET centre_type = 'Zoo' WHERE centre_name like '%Zoo';
+
+UPDATE centre SET centre_type = 'Wildlife Park' WHERE centre_name like '%Park';
+
+UPDATE centre SET centre_type = 'Sanctuary' WHERE centre_name like '%Sanctuary';
+
+UPDATE centre SET centre_type = 'Nature Reserve' WHERE centre_name like '%Reserve';
+
 COMMIT;
