@@ -37,6 +37,7 @@ UPDATE animal SET centre_id = (SELECT centre_id FROM centre WHERE centre_name = 
 
 DELETE FROM centre WHERE centre_id = (SELECT centre_id FROM centre WHERE centre_name = 'SanWild Wildlife Sanctuary');
 
+
 -- (iii)
 
 INSERT INTO animal VALUES (
@@ -56,8 +57,6 @@ INSERT INTO animal VALUES (
     (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil'),
     (SELECT spec_name FROM species WHERE spec_popular_name = 'Tasmanian Devil')
 );
-
-
 
 
 -- (iv)
@@ -86,8 +85,6 @@ INSERT INTO animal VALUES (
     (SELECT spec_genus FROM species WHERE spec_popular_name = 'Tasmanian Devil'),
     (SELECT spec_name FROM species WHERE spec_popular_name = 'Tasmanian Devil')
 );
-
-
 
 COMMIT;
 
