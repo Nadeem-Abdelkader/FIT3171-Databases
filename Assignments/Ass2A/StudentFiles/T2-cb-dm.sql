@@ -21,6 +21,13 @@ Complete the listed DML actions
 
 -- (i)
 
+DROP SEQUENCE animal_seq;
+
+CREATE SEQUENCE animal_seq START WITH 500 INCREMENT BY 1;
+
+DROP SEQUENCE breeding_event_seq;
+
+CREATE SEQUENCE breeding_event_seq START WITH 500 INCREMENT BY 1;
 
 
 -- (ii)
