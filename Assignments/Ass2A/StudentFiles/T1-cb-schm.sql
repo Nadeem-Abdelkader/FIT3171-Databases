@@ -20,7 +20,7 @@ Oracle.
 --PLEASE PLACE REQUIRED SQL STATEMENT(S) BELOW
 DROP TABLE animal CASCADE CONSTRAINTS;
 
-DROP TABLE breeding_event CASCADE CONSTRAINTS;
+DROP TABLE breeding_event PURGE;
 
 DROP TABLE centre PURGE;
 
@@ -142,7 +142,7 @@ COMMENT ON COLUMN animal.spec_genus IS
     
 COMMENT ON COLUMN animal.spec_name IS
     'The species name for the animal';
-
+    
 ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_mother_fk FOREIGN KEY ( mother_id ) REFERENCES animal ( animal_id );
 
 ALTER TABLE breeding_event ADD CONSTRAINT breeding_event_animal_father_fk FOREIGN KEY ( father_id ) REFERENCES animal ( animal_id );
