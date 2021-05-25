@@ -1,9 +1,9 @@
 --****PLEASE ENTER YOUR DETAILS BELOW****
 --mh-queries.sql
 
---Student ID:
---Student Name:
---Tutorial No:
+--Student ID: 30146224
+--Student Name: Nadeem Emadeldin Hamed Hamed Abdelkader
+--Tutorial No: 02
 
 /* Comments for your marker:
 
