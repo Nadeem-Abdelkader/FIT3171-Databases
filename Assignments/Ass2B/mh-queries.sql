@@ -95,13 +95,11 @@ ORDER BY
 -- ENSURE your query has a semicolon (;) at the end of this answer
 
 
-
 /*
     Q7
 */
 -- PLEASE PLACE REQUIRED SQL STATEMENT FOR THIS PART HERE
 -- ENSURE your query has a semicolon (;) at the end of this answer
-
 
 
 /*
